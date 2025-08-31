@@ -33,3 +33,32 @@ for i in range(0, t):
         p.yearPasses()       
     p.amIOld()
     print("")
+
+"""
+class person: 
+        
+    def checkage(self,age):
+
+        
+        if age < 13:
+            print("You are young.")
+
+        elif 13 <= age < 18:
+            print("You are a teenager.")
+
+        elif age >= 18:
+            print("You are old.")
+
+age =  int(input("age: "))
+
+if age < 0:
+    print("Age is not valid, setting age to 0.")
+    age = 0
+
+p = person()
+
+p.checkage(age)
+age += 3
+p.checkage(age)
+
+"""
