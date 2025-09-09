@@ -40,3 +40,21 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+
+
+
+# simple and understanding code
+
+arr = [1, 3, 2, 6, 1, 2]
+
+k = 3
+count = 0
+for i in range(len(arr)):
+    for j in range(i+1,len(arr)):
+
+        sums = arr[i] + arr[j]
+
+        if sums % k == 0:
+            count += 1
+
+print (count)
